@@ -1,8 +1,8 @@
 {
   "pack": {
-    "supported_formats": [1,99],
+    "supported_formats": [1,999],
     "min_format": 1,
-    "max_format": 99,
+    "max_format": 999,
     "pack_format": 15,
     "description": [
       "Made with ",
@@ -22,21 +22,27 @@
     "entries": [
       {
         "directory": "overlay.mod",
-        "formats": [1, 99],
+        "formats": [1, 999],
         "min_format": 1,
-        "max_format": 99
+        "max_format": 999
       },
       {
         "directory": "overlay.1_21_9_mod",
-        "formats": [82, 99],
+        "formats": [82, 999],
         "min_format": 82,
-        "max_format": 99
+        "max_format": 999
       },
       {
         "directory": "overlay.1_21_9",
-        "formats": [82, 99],
+        "formats": [82, 999],
         "min_format": 82,
-        "max_format": 99
+        "max_format": 999
+      },
+      {
+        "directory": "overlay.26_2",
+        "formats": [107, 999],
+        "min_format": 107,
+        "max_format": 999
       }
     ]
   },
@@ -44,9 +50,9 @@
     "entries": [
       {
         "directory": "overlay.no_carvers",
-        "formats": [1, 99],
+        "formats": [1, 999],
         "min_format": 1,
-        "max_format": 99,
+        "max_format": 999,
         "neoforge:conditions": [
           {
             "type": "tectonic:config",
@@ -55,10 +61,22 @@
         ]
       },
       {
-        "directory": "overlay.ultrasmooth",
-        "formats": [1, 99],
+        "directory": "overlay.ore_fix",
+        "formats": [1, 999],
         "min_format": 1,
-        "max_format": 99,
+        "max_format": 999,
+        "neoforge:conditions": [
+          {
+            "type": "tectonic:config",
+            "key": "ore_fix"
+          }
+        ]
+      },
+      {
+        "directory": "overlay.ultrasmooth",
+        "formats": [1, 999],
+        "min_format": 1,
+        "max_format": 999,
         "neoforge:conditions": [
           {
             "type": "tectonic:config",
@@ -68,9 +86,9 @@
       },
       {
         "directory": "overlay.terratonic",
-        "formats": [1, 99],
+        "formats": [1, 999],
         "min_format": 1,
-        "max_format": 99,
+        "max_format": 999,
         "neoforge:conditions": [
           {
             "type": "neoforge:mod_loaded",
@@ -80,9 +98,9 @@
       },
       {
         "directory": "overlay.clifftree",
-        "formats": [1, 99],
+        "formats": [1, 999],
         "min_format": 1,
-        "max_format": 99,
+        "max_format": 999,
         "neoforge:conditions": [
           {
             "type": "neoforge:mod_loaded",
@@ -99,6 +117,13 @@
         "condition": {
           "condition": "tectonic:config",
           "key": "no_carvers"
+        }
+      },
+      {
+        "directory": "overlay.ore_fix",
+        "condition": {
+          "condition": "tectonic:config",
+          "key": "ore_fix"
         }
       },
       {
