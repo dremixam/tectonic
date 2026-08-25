@@ -148,7 +148,7 @@ public class ConfigState {
 
     public static class Continents {
         public static final double OCEAN_OFFSET = -0.8;
-        public static final double CONTINENTS_SCALE = 0.13;
+        public static final double CONTINENTS_SCALE = 0.017;
         public static final double EROSION_SCALE = 0.25;
         public static final double RIDGE_SCALE = 0.25;
         public static final boolean UNDERGROUND_RIVERS = true;
@@ -195,7 +195,7 @@ public class ConfigState {
 
     public static class Islands {
         public static final boolean ENABLED = true;
-        public static final NoiseState NOISE = new NoiseState(0.11, 1, 0);
+        public static final NoiseState NOISE = new NoiseState(0.15, 1, 0);
 
         public static final Islands DEFAULT = new Islands(ENABLED, NOISE);
         public static final Codec<Islands> CODEC = RecordCodecBuilder.create(instance -> instance.group(
