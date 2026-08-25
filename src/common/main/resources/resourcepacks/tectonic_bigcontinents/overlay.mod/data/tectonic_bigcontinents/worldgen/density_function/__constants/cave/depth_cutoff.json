@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "tectonic_bigcontinents:invert",
+      "argument": {
+        "type": "minecraft:clamp",
+        "input": {
+          "type": "tectonic_bigcontinents:config_constant",
+          "key": "depth_cutoff_size"
+        },
+        "min": 0.001,
+        "max": 64
+      }
+    },
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": "tectonic_bigcontinents:depth",
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": -1,
+        "argument2": {
+          "type": "tectonic_bigcontinents:config_constant",
+          "key": "depth_cutoff_start"
+        }
+      }
+    }
+  },
+  "min": 0,
+  "max": 1
+}

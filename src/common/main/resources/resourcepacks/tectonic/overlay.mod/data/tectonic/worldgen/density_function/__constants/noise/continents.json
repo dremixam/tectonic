@@ -1,7 +1,0 @@
-{
-  "type": "tectonic:config_noise",
-  "noise": "tectonic:parameter/continentalness",
-  "key": "continents",
-  "shift_x": "tectonic:noise/continent_shift_x",
-  "shift_z": "tectonic:noise/continent_shift_z"
-}

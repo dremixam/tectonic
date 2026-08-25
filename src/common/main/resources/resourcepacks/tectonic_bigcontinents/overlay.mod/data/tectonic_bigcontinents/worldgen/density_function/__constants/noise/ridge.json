@@ -1,0 +1,7 @@
+{
+  "type": "tectonic_bigcontinents:config_noise",
+  "noise": "tectonic_bigcontinents:parameter/ridge",
+  "key": "ridge",
+  "shift_x": "minecraft:shift_x",
+  "shift_z": "minecraft:shift_z"
+}

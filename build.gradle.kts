@@ -19,7 +19,7 @@ repositories {
     maven("https://maven.terraformersmc.com/")
 }
 
-group = "dev.worldgen.tectonic"
+group = "com.dremixam.tectonicbigcontinents"
 version = "3.0.18"
 
 cloche {
@@ -33,24 +33,24 @@ cloche {
     }
 
     metadata {
-        modId = "tectonic"
-        name = "Tectonic"
-        description = "Terrain shaping brought to new heights, grander and more varied than ever before!"
+        modId = "tectonic_bigcontinents"
+        name = "Tectonic-BigContinents"
+        description = "Terrain shaping brought to new heights, grander and more varied than ever before! Private fork tuned for enormous continents."
         license = "MIT"
         icon = "pack.png"
 
-        url = "https://modrinth.com/project/tectonic"
-        issues = "https://github.com/Apollounknowndev/tectonic/issues"
-        sources = "https://github.com/Apollounknowndev/tectonic"
+        issues = "https://github.com/dremixam/tectonic/issues"
+        sources = "https://github.com/dremixam/tectonic"
 
         author("Apollo")
         contributor("HB Stratos")
         contributor("DawnKiro")
         contributor("Uni")
+        contributor("DrEmixam")
     }
 
     common {
-        mixins.from(file("src/common/main/tectonic.mixins.json"))
+        mixins.from(file("src/common/main/tectonic_bigcontinents.mixins.json"))
 
         dependencies {
             compileOnly("org.spongepowered:mixin:0.8.3")
@@ -67,10 +67,10 @@ cloche {
     }
 
     val shared1211 = common("shared:1.21.1") {
-        mixins.from(file("src/shared/1.21.1/main/tectonic_1.21.1.mixins.json"))
+        mixins.from(file("src/shared/1.21.1/main/tectonic_bigcontinents_1.21.1.mixins.json"))
     }
     val shared12111 = common("shared:1.21.11") {
-        mixins.from(file("src/shared/1.21.11/main/tectonic_1.21.11.mixins.json"))
+        mixins.from(file("src/shared/1.21.11/main/tectonic_bigcontinents_1.21.11.mixins.json"))
     }
 
     fabric("fabric:1.21.1") {
@@ -93,10 +93,10 @@ cloche {
 
         metadata {
             entrypoint("main") {
-                value = "dev.worldgen.tectonic.TectonicFabric"
+                value = "com.dremixam.tectonicbigcontinents.TectonicFabric"
             }
             entrypoint("modmenu") {
-                value = "dev.worldgen.tectonic.compat.TectonicModMenuCompat"
+                value = "com.dremixam.tectonicbigcontinents.compat.TectonicModMenuCompat"
             }
         }
     }
@@ -121,10 +121,10 @@ cloche {
 
         metadata {
             entrypoint("main") {
-                value = "dev.worldgen.tectonic.TectonicFabric"
+                value = "com.dremixam.tectonicbigcontinents.TectonicFabric"
             }
             entrypoint("modmenu") {
-                value = "dev.worldgen.tectonic.compat.TectonicModMenuCompat"
+                value = "com.dremixam.tectonicbigcontinents.compat.TectonicModMenuCompat"
             }
         }
     }

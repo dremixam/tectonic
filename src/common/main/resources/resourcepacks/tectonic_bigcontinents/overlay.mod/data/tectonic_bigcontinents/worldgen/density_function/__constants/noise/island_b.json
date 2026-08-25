@@ -1,0 +1,7 @@
+{
+  "type": "tectonic_bigcontinents:config_noise",
+  "noise": "tectonic_bigcontinents:island/continents_b",
+  "key": "island",
+  "shift_x": 0,
+  "shift_z": 0
+}

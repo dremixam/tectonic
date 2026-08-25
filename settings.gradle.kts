@@ -1,4 +1,4 @@
-rootProject.name = "tectonic"
+rootProject.name = "Tectonic-BigContinents"
 
 pluginManagement {
     repositories {

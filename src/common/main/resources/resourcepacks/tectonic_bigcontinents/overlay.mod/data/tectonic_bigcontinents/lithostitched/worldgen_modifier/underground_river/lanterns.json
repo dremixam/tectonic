@@ -1,0 +1,10 @@
+{
+  "predicate": {
+    "type": "tectonic_bigcontinents:config",
+    "key": "river_lanterns"
+  },
+  "type": "lithostitched:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "tectonic_bigcontinents:underground_river/lanterns",
+  "step": "vegetal_decoration"
+}

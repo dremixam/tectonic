@@ -1,7 +1,5 @@
-# Tectonic
+# Tectonic-BigContinents
 
-**Tectonic** is a Minecraft mod and datapack that aims to transform how terrain is shaped.
-
----
-
-View the full description on the Modrinth page here: https://modrinth.com/mod/tectonic
+**Tectonic-BigContinents** is a fork of [Tectonic](https://modrinth.com/mod/tectonic) by Apollo,
+a Minecraft mod and datapack that transforms how terrain is shaped. This fork tunes the worldgen
+defaults toward much larger continents, for use on a personal server.

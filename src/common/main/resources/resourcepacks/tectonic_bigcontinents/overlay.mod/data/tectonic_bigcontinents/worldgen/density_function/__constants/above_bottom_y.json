@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:add",
+  "argument1": "minecraft:y",
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": -1,
+    "argument2": {
+      "type": "tectonic_bigcontinents:config_constant",
+      "key": "min_y"
+    }
+  }
+}
