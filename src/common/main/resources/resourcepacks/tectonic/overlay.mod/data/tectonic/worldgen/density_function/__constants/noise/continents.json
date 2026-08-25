@@ -2,6 +2,6 @@
   "type": "tectonic:config_noise",
   "noise": "tectonic:parameter/continentalness",
   "key": "continents",
-  "shift_x": "minecraft:shift_x",
-  "shift_z": "minecraft:shift_z"
+  "shift_x": "tectonic:noise/continent_shift_x",
+  "shift_z": "tectonic:noise/continent_shift_z"
 }
